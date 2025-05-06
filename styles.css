@@ -1,0 +1,64 @@
+* { 
+    font-family: "Montserrat", "Inter", "Helvetica", sans-serif;
+    font-optical-sizing: auto;
+  /*  font-weight: 400; */
+    font-style: normal;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}  */
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+i {
+    font-size: 30px;
+    padding: 5px;
+}
+.Post {
+    background: white;
+    margin: auto;
+}
+h1 {
+    position: relative;
+}
+.post-header  {
+    margin: 2px;
+    font-size: 8px;
+}
+.icon-header {
+    padding: 5px;
+}
+img {
+    height: 400px;
+    width: 500px;
+}
+.icons {
+    margin-left: 2%;
+    font-size: 35px;
+}
+.fa-bookmark {
+    float: right;
+    position: relative;
+}
+.fa-ellipsis-vertical {
+    justify-content: space-around;
+    float: right;
+    position: relative;
+}
+.paragraph {
+    padding: 2%;
+    margin-left: 1%;
+    font-size: 14px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+}
